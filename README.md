@@ -16,7 +16,7 @@
 - 📈 Сравнение разных алгоритмов
 
 ### 🛠 Администратор:
-- 🔧 Добавление/редактирование/тестирование алгоритмов (файлы .py)
+- 🔧 Добавление/редактирование/тестирование алгоритмов
 - 📤 Публикация алгоритмов для пользователей
 
 ---
@@ -49,4 +49,86 @@ python main.py
 ![itertools](https://img.shields.io/badge/itertools-%23000000.svg?style=for-the-badge&logo=python&logoColor=white)
 ![heapq](https://img.shields.io/badge/heapq-%23000000.svg?style=for-the-badge&logo=python&logoColor=white)
 
+## 🗂 Структура проекта
+```
+├── main.py
+├── algorithm.py
+├── images/
+├── files/
+│   └── *.csv
+├── test_csv/
+│   └── *.csv
+├── scr/
+│   ├── algorithms.py
+│   ├── auth.py
+│   ├── developer_page.py
+|   ├── loadGraph.py
+|   ├── navigation.py
+|   ├── result_page.py
+├── db/
+│   └── connect.py
+├── auto_test/
+│   ├── test_algorithms.py
+│   ├── test_auth.py
+├── requirements.txt
+├── arial unicode ms.otf
+└── README.md
 
+```
+## 📥 Пример входных данных
+```
+{
+  "A": {"B": 5, "C": 2},
+  "B": {"A": 5, "C": 1},
+  "C": {"A": 2, "B": 1}
+}
+```
+## 🖼 Интерфейс
+<details>
+<summary> 🔐 Страница авторизации (нажмите, чтобы раскрыть)
+ 
+[![authorization][1]][1]
+ 
+[1]: readme_assets/authorization.png
+
+▶️ Описание:
+Пользователь или администратор вводит логин и пароль для входа в систему. Реализована проверка с использованием хэшей и подключением к базе данных MySQL.
+ 
+</details>
+
+<details>
+<summary> 📁 Загрузка графа из файла или с помощью ручного ввода</summary>
+ 
+[![graph_loading][3]][3]
+ 
+[3]: readme_assets/graph_loading.png
+
+▶️ Описание:
+Пользователь может загрузить граф из .csv-файла или ввести данные вручную. Учитываются вершины, рёбра и веса, возможна настройка направленности графа.
+ 
+</details>
+
+
+<details>
+<summary> 🧮 Отображение результата алгоритма</summary>
+ 
+[![result][4]][4]
+ 
+[4]: readme_assets/result.png
+
+▶️ Описание:
+После выполнения алгоритма (например, Дейкстры, TSP или Крускала) отображается маршрут, его длина, и визуализация графа.
+
+</details>
+
+<details>
+<summary> 📊 Сравнение результатов алгоритмов</summary>
+ 
+[![comparison_result][2]][2]
+ 
+[2]: readme_assets/comparison_result.png
+
+▶️ Описание:
+После запуска алгоритмов можно сравнить их по длине пути и времени выполнения. Результаты отображаются в таблице.
+ 
+</details>
