@@ -152,7 +152,7 @@ class LoadingGraphPage:
             nx.draw(G, pos, with_labels=True, node_size=1000, node_color="skyblue", font_size=12, font_weight="bold", edge_color="gray")
 
             # Определяем путь для сохранения изображения в папке проекта
-            image_dir = ".../Algorithm/images"  # Укажите свой путь к файлу
+            image_dir = "../Algorithm/images"  # Укажите свой путь к файлу
             os.makedirs(image_dir, exist_ok=True)
             image_path = os.path.join(image_dir, f"graph_{int(time.time())}.png")
 
