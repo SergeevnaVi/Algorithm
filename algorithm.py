@@ -658,7 +658,7 @@ class Ui_Algorithm(object):
         self.label_5.setText(_translate("Algorithm", "<html><head/><body><p>Ограничения маршрутов</p></body></html>"))
         self.checkBox.setText(_translate("Algorithm", "Учитывать направленность"))
         self.label_4.setText(_translate("Algorithm", "Конечная вершина"))
-        self.label_6.setText(_translate("Algorithm", "Настройки параметров для алгоритма Кратчайший путь"))
+        self.label_6.setText(_translate("Algorithm", "Настройки параметров для алгоритма"))
         self.pushButton_loading.setText(_translate("Algorithm", "Загрузить граф"))
         self.pushButton_back.setText(_translate("Algorithm", "Назад"))
         self.pushButton_run.setText(_translate("Algorithm", "Запустить алгоритм"))
