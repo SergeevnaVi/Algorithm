@@ -23,7 +23,7 @@
 
 ## 🚀 Как запустить
 ```
-git clone git clone https://github.com/SergeevnaVi/Algorithm.git
+git clone https://github.com/SergeevnaVi/Algorithm.git
 ```
 ```
 cd Algorithm
